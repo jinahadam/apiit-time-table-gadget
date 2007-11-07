@@ -1,0 +1,39 @@
+﻿<view height="240" resizable="true"  width="180" background="#FFFFFF" showCaptionAlways="true"
+  onopen="view_onOpen()" onoptionchanged="onOptionChanged()"  
+ >
+ 	<img  src="images\bg.png"/>
+    <div height="100%" name="background" width="100%" y="1">
+        <label height="14" name="label" width="100%" y="5" color="#999999"
+          font="Verdana" size="7" underline="true" wordwrap="true"
+         />
+        <label height="13" name="moday_label" width="100%" y="15" bold="true"
+          color="#999999" font="Verdana" size="7" wordwrap="true"
+         />
+        <listbox height="200" name="monList" width="140" x="2" y="30" itemWidth="100%"
+          itemHeight="12" itemSelectedColor="#FFFFFF" itemOverColor="#CCCCCC"
+         />
+        <label height="13" name="tuesday_label" width="100%" bold="true" color="#999999"
+          font="Verdana" size="7" wordwrap="true"/>
+        <listbox height="200" name="tueList" width="140" x="2" itemWidth="100%"
+          itemHeight="12" itemSelectedColor="#FFFFFF" itemOverColor="#CCCCCC"
+         />
+        <label height="13" name="wed_label" width="100%" bold="true" color="#999999"
+          font="Verdana" size="7" wordwrap="true"/>
+        <listbox height="200" name="wedList" width="140" x="2" itemWidth="100%"
+          itemHeight="12" itemSelectedColor="#FFFFFF" itemOverColor="#CCCCCC"
+         />
+        <label height="13" name="thu_label" width="100%" bold="true" color="#999999"
+          font="Verdana" size="7" wordwrap="true"/>
+        <listbox height="200" name="thuList" width="140" x="2" itemWidth="100%"
+          itemHeight="12" itemSelectedColor="#FFFFFF" itemOverColor="#CCCCCC"
+         />
+        <label height="13" name="fri_label" width="100%" bold="true" color="#999999"
+          font="Verdana" size="7" wordwrap="true"/>
+        <listbox height="200" name="friList" width="140" x="2" itemWidth="100%"
+          itemHeight="12" itemSelectedColor="#FFFFFF" itemOverColor="#CCCCCC"
+         />
+    </div>
+    <a name="icode" x="2" y="2" onclick="onOpenOptionsClick();" size="7"
+     />
+     <script src="main.js" />
+</view>
